@@ -84,3 +84,22 @@ i{
 .maps_estilo{
     width: 100%;
 }
+@media only screen and (max-width: 600px) {
+    
+    .img_contact{
+        margin: auto;
+
+    }
+
+    .contenido_contacto{
+        display: none;
+    }
+	.titulo_img_contact{
+        text-align: center;
+    }
+    .texto_contact{
+        position: left;
+        text-align: justify;
+        right: 200px;
+    }
+}
